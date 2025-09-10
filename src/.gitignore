@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build outputs
+www/
+build/
+dist/
+
+# Capacitor / Android / iOS native projects
+android/
+ios/
+
+# Env files
+*.env
+*.env.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (exclude package-lock.json)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Capacitor config backups
+capacitor.config.json.backup
